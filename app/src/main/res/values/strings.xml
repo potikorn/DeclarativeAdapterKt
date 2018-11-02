@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DeclarativeAdapter</string>
+    <string name="title_multiple_type_and_nested_view">Multiple Type + Nested View</string>
 </resources>

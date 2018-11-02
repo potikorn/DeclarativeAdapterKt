@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rvMenuList"
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnMenu1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:listitem="@layout/simple_menu" />
+        android:layout_height="wrap_content"
+        android:text="@string/title_multiple_type_and_nested_view"
+        android:textAllCaps="false" />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
